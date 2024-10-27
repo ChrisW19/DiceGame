@@ -17,7 +17,7 @@ namespace DiceGame.Game
             var diceRollResult = _dice.Roll();
             Console.WriteLine($"Dice rolled. Guess what number it shows in {InitialTries} tries.");
 
-            var triesLeft = InitialTries;
+            int triesLeft = InitialTries;
             
             while (triesLeft > 0)
             {
